@@ -1,0 +1,12 @@
+modules:
+  "confluence:contentAction":
+    - key: hello-confluence-hello-world
+      function: main
+      title: Profanity Checker
+      description: Checks Profanity
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: "ari:cloud:ecosystem::app/87f7239c-d7b2-4483-aab3-ecaa4dc28a39"
+  name: Profanity Checker
